@@ -75,7 +75,7 @@ export const Page = () => {
                 name={'password'}
                 value={password}
                 onChange={(e) => {
-                  setEmail(e.target.value)
+                  setPassword(e.target.value)
                 }}
               />
             </FormControl>
